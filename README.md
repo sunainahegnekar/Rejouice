@@ -1,1 +1,1 @@
-https://github.com/sunainahegnekar/Rejouice
+ https://sunainahegnekar.github.io/Rejouice/
