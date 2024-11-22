@@ -345,4 +345,145 @@
         display: inline-block;
     }
     
+    @media (max-width: 780px) {
+        * {
+            font-size: 14px;
+        }
+    
+        html, body {
+            font-size: 14px;
+            height: auto;
+            width: 100%;
+        }
+    
+        .cursor {
+            height: 12vw;
+            width: 12vw;
+        }
+    
+        .cursor h5 {
+            font-size: 3vw;
+        }
+    
+        .page-1 h1,
+        .page-1 h1 span {
+            font-size: 16vw;
+            line-height: 18vw;
+        }
+    
+        nav h3 {
+            font-size: 3.5vw;
+        }
+    
+        .page-2 p {
+            font-size: 6vw;
+            padding: 2vw 4vw;
+        }
+    
+        .para {
+            padding: 3vw;
+            border-width: 1px;
+        }
+    
+        .nav-2 {
+            flex-direction: column;
+            gap: 1.5vw;
+            padding: 3vw 2vw;
+        }
+    
+        .page3-elements {
+            flex-direction: column;
+            height: auto;
+            gap: 5vw;
+            margin-top: 8vw;
+        }
+    
+        .page3-elements .box {
+            width: 100%;
+        }
+    
+        .page3-top h4 {
+            font-size: 3vw;
+        }
+    
+        .page3-top h4 span {
+            font-size: 6vw;
+        }
+    
+        .page3-top h2 {
+            font-size: 6vw;
+        }
+    
+        .page4 svg {
+            height: 45%;
+        }
+    
+        .page5 h1 {
+            font-size: 8vw;
+            width: 90%;
+            margin-left: 5%;
+        }
+    
+        .swiperdiv {
+            height: 50vh;
+        }
+    
+        .swiper img {
+            width: 25%;
+        }
+    
+        .loader h3 {
+            font-size: 4vw;
+        }
+    
+        .page6 {
+            height: auto;
+            padding: 3vw 1vw;
+        }
+    
+        .page6 p {
+            font-size: 3.5vw;
+        }
+    
+        .page6 .nav-2 {
+            flex-direction: column;
+            gap: 3vw;
+        }
+    
+        .page7 span {
+            font-size: 20vw;
+        }
+
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding: 2vw;
+                height: auto;
+            }
+        
+            nav h3 {
+                font-size: 4vw;
+                text-align: center;
+                margin-bottom: 1vw;
+            }
+        
+            .nav-2 {
+                flex-direction: column;
+                align-items: center;
+                gap: 2vw;
+                padding: 0;
+                border: none;
+            }
+        
+            .nav-2 p {
+                font-size: 3.5vw;
+                text-align: center;
+                padding: 1vw;
+                margin: 0;
+            }
+        }
+        
+    }
     
